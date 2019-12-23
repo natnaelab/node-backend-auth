@@ -1,0 +1,33 @@
+{
+  "name": "node-backend-auth",
+  "version": "1.0.0",
+  "description": "NodeJS backend auth built with PassportJS authentication middleware",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "node",
+    "backend",
+    "authentication"
+  ],
+  "author": {
+    "name": "Natnael Abrham",
+    "email": "mail@natnaelabrham.com",
+    "url": "https://natnaelabrham.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "config": "^3.2.4",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.2",
+    "mongoose-unique-validator": "^2.0.3",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "validator": "^12.1.0"
+  }
+}
